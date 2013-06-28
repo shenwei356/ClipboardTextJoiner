@@ -6,7 +6,7 @@ Monitoring system clipboard change and joining multi-line text.
 Usage
 -----------
 
-There are two edition using different clipbloard perl modules:
+Two editions of scripts using different clipbloard perl modules:
 
 - ClipboardTextJoiner.pl
 
