@@ -10,13 +10,14 @@ There are two edition using different clipbloard perl modules:
 
 - ClipboardTextJoiner.pl
 
-  use Clipboard
+  use Clipboard;
 
   For Linux, OSX, *BSD, and Windows.
+  
 
 - ClipboardTextJoiner_WinEdition.pl
 
-  use Win32::Clipboard
+  use Win32::Clipboard;
 
   For Windows only.
 
