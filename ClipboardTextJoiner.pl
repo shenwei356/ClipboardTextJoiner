@@ -1,6 +1,7 @@
 #!/usr/bin/perl;
 use strict;
 use Clipboard;
+use Clipboard::Win32;
 
 print <<INFO;
 ===============================================================================
