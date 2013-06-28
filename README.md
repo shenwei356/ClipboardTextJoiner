@@ -6,6 +6,8 @@ Monitoring system clipboard change and joining multi-line text.
 Usage
 -----------
 
+Just copy and paste like usual.
+
 Two editions of scripts using different clipbloard perl modules:
 
 - ClipboardTextJoiner.pl
@@ -14,6 +16,7 @@ Two editions of scripts using different clipbloard perl modules:
 
   For Linux, OSX, *BSD, and Windows.
   
+  It does not work well in Linux right now.
 
 - ClipboardTextJoiner_WinEdition.pl
 
