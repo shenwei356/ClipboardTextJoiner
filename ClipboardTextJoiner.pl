@@ -1,7 +1,7 @@
 #!/usr/bin/perl;
 use strict;
 use Clipboard;
-use Clipboard::Win32;
+use Clipboard::Win32; # just for successfully compiling to exe in windows
 
 print <<INFO;
 ===============================================================================
