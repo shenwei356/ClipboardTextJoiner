@@ -21,8 +21,8 @@ my $last_text = '';
 while (1) {
     $text = Clipboard->paste;
     if ( $text ne $last_text ) {
-        &edit_text($text);
-        Clipboard->copy(\$text);
+        &edit_text(\$text);
+        Clipboard->copy($text);
         
         $text = Clipboard->paste;
         print "\n$head\n$text\n";
