@@ -33,8 +33,8 @@ while (1) {
 
 sub edit_text {
     my ($text) = @_;
-    $text =~ s/-\r?\n\s*/-/gs;
-    $text =~ s/([^\-])\r?\n\s*/$1 /gs;
-    $text =~ s/\s+/ /gs;
+    $text =~ s/-\r?\n\s*/-/gs;          # for rows end with "-"
+    $text =~ s/([^\-])\r?\n\s*/$1 /gs;  # for other rows
+    $text =~ s/\s+/ /gs;                # joining multi-blanks into one blank
     return $text;
 }
