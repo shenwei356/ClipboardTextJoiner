@@ -23,6 +23,8 @@ while (1) {
     if ( $text ne $last_text ) {
         $text = &edit_text($text);
         Clipboard->copy($text);
+        
+        $text = Clipboard->paste;
         print "\n$head\n$text\n";
         $last_text = $text;
     }
