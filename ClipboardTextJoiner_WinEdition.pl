@@ -26,7 +26,7 @@ while (1) {
     {
         next unless $clip->IsText();    # only text will be edited
         $text = $clip->GetText();       # get text from clipboard
-        $text = &edit_text($text);      # edit text
+        &edit_text(\$text);             # edit text
         $handle_this_change = 0;        # to ignore this change
         $clip->Set($text);              # write back to clipboard
     }
@@ -39,8 +39,14 @@ while (1) {
 
 sub edit_text {
     my ($text) = @_;
+<<<<<<< HEAD
     $text =~ s/-\r?\n\s*/-/gs;          # for rows end with "-"
     $text =~ s/([^\-])\r?\n\s*/$1 /gs;  # for other rows
     $text =~ s/\s+/ /gs;                # joining multi-blanks into one blank
     return $text;
+=======
+    $$text =~ s/-\r?\n\s*/-/g;          # for rows end with "-"
+    $$text =~ s/([^\-])\r?\n\s*/$1 /g;  # for other rows
+    $$text =~ s/\s+/ /g;                # joining multi-blanks into one blank
+>>>>>>> a little change
 }

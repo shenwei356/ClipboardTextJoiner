@@ -6,7 +6,7 @@ Monitoring system clipboard change and joining multi-line text.
 Usage
 -----
 
-Just copy and paste like usual.
+Just copy and paste as usual.
 
 Two editions of scripts using different clipbloard Perl modules:
 
