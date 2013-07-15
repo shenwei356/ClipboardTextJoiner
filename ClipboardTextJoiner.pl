@@ -5,11 +5,16 @@ use Clipboard::Win32; # just for successfully compiling to exe in windows
 
 print <<INFO;
 ===============================================================================
+
                           Clipboard Text Joiner
          Monitoring system clipboard change and joining multi-line text
-               
-                    by Wei Shen <shenwei356\@gmail.com>
-                               2013-06-28
+
+ Usage  : Just copy and paste as usual
+ Author : Wei Shen <shenwei356\@gmail.com>
+ Home   : https://github.com/shenwei356/ClipboardTextJoiner
+ Chinese: http://blog.shenwei.me/clipboardtextjoiner/
+ Version: 2013-06-28
+
 ===============================================================================
 
 INFO
