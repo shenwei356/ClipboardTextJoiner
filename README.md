@@ -3,6 +3,8 @@ ClipboardTextJoiner
 
 Monitoring system clipboard change and joining multi-line text.
 
+It's very useful when copying multi-line text from PDF files.
+
 Usage
 -----
 
