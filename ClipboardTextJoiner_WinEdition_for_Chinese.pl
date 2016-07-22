@@ -44,7 +44,7 @@ while (1) {
 
 sub edit_text {
     my ($text) = @_;
-    $$text =~ s/-\r?\n\s*/-/g;          # for rows end with "-"
-    $$text =~ s/([^\-])\r?\n\s*/$1 /g;  # for other rows
-    $$text =~ s/\s+/ /g;                # joining multi-blanks into one blank
+    $$text =~ s/-\r?\n\s*//g;          # for rows end with "-"
+    $$text =~ s/([^\-])\r?\n\s*/$1/g;  # for other rows
+    $$text =~ s/\s+//g;                # joining multi-blanks into one blank
 }
